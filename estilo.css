@@ -1,0 +1,244 @@
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/*----body----*/
+@media (max-width: 800px){
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+/*----carta----*/
+.carta{
+    background-color: rgb(245, 245, 245);
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.encabezadoCarta{
+    background-color: rgba(25, 33, 191, 0.816);
+    height: 45%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px 25px;
+}
+.mainCarta{
+    width: 100%;
+    height: 50%;
+    padding: 10px 25px;
+}
+.mainContenido{
+    width: 100%;
+    height: 80%;
+    margin: 5px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+.mainSentidos{
+    margin: 0;
+    padding: 5px 25px;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(81, 41, 154, 0.212);
+    border-radius: 15px;
+}
+.tituloCarta{
+    color: rgb(155, 155, 155);
+}
+.parrafoCarta{
+    color: rgb(155, 155, 155);
+    width: 250px;
+    font-size: 15px;
+}
+.subtituloCarta{
+    color: white;
+}
+.tituloMainCarta{
+    color: rgba(0, 0, 0, 0.649);
+}
+.numeroCarta{
+    background-color: rgba(51, 0, 255, 0.266);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border-radius: 100%;
+    font-size: 35px;
+    font-weight: 900;
+}
+.numeroCartaSpan{
+    color: gray;
+    font-size: 15px;
+}
+.boton{
+    width: 70%;
+    height: 50px;
+    background-color: rgba(25, 33, 191, 0.816);
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 50px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    width: 70%;
+    height: 50px;
+    background-color: rgb(25, 33, 191);
+    color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    border-style: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.numeroSentidosSpan{
+    color: rgba(0, 0, 0, 0.578);
+}
+}
+/*--------------------adaptacion---------------*/
+@media (min-width:801px) {
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+    }
+/*----carta----*/
+    .carta{
+        background-color: rgb(245, 245, 245);
+        width: 800px;
+        height: 550px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .encabezadoCarta{
+        background-color: rgba(25, 33, 191, 0.816);
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 45px;
+        padding: 5px 25px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 25%;
+        border-bottom-right-radius: 25%;
+    }
+    .mainCarta{
+        width: 50%;
+        height: 100%;
+        padding: 5px 25px;
+    }
+    .mainContenido{
+        width: 100%;
+        height: 80%;
+        margin: 5px 0px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+    }
+    .mainSentidos{
+        margin: 0;
+        padding: 5px 25px;
+        width: 90%;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(81, 41, 154, 0.212);
+        border-radius: 15px;
+    }
+    .numeroSentidosSpan{
+    color: rgba(0, 0, 0, 0.578);
+    }
+    .tituloCarta{
+        color: rgb(155, 155, 155);
+    }
+    .parrafoCarta{
+        color: rgb(155, 155, 155);
+        width: 250px;
+        font-size: 15px;
+    }
+    .subtituloCarta{
+        color: white;
+    }
+    .tituloMainCarta{
+        color: rgba(0, 0, 0, 0.649);
+        margin-top: 45px;
+    }
+    .numeroCarta{
+        background-color: rgba(51, 0, 255, 0.266);
+        width: 100px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        border-radius: 100%;
+        font-size: 35px;
+        font-weight: 900;
+    }
+    .numeroCartaSpan{
+        color: gray;
+        font-size: 15px;
+    }
+    .boton{
+        width: 70%;
+        height: 50px;
+        background-color: rgba(25, 33, 191, 0.816);
+        color: white;
+        font-size: 15px;
+        border-radius: 30px;
+        border-style: none;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    .boton:hover{
+        width: 70%;
+        height: 50px;
+        background-color: rgb(25, 33, 191);
+        color: white;
+        font-size: 15px;
+        border-radius: 30px;
+        border-style: none;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+}
